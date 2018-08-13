@@ -1,0 +1,15 @@
+# Site Settings
+title: Charley Wu
+email: charleymswu@gmail.com
+description: >
+  Hi I'm Charley
+baseurl: ""
+url: "http://charleywu.github.io"
+twitter_username: thecharleywu
+github_username:  charleywu
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
