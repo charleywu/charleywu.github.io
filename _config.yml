@@ -1,5 +1,5 @@
 # Site Settings
-title: Charley Wu
+title: Charley M. Wu
 email: charleymswu@gmail.com
 description: >
   Hi I'm Charley
@@ -12,4 +12,29 @@ sass:
   sass_dir: _sass
 include: ['_pages']
 kramdown:
-  input: GFM
+  input: markdown
+plugins: ['jekyll/scholar']
+#jekyll scholar
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  bibtex_filters:
+    - latex
+    - markdown
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
