@@ -1,0 +1,91 @@
+---
+---
+<div class="text-justify">{{reference}}</div>
+<button class="button0"  onclick="toggleBibtex{{entry.key}}()" style= "background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;">Bibtex</button>
+ 
+{% if entry.doi %}
+    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank" ><input class="button1" type="button" value="link" style= "background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;"/></a>
+{% endif %}
+ 
+ 
+{% if entry.link %}
+    <a href="{{ entry.link }}" target="_blank" ><input class="button1" type="button" value="link" style= "background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;" /></a>
+{% endif %}
+
+
+{% if entry.preprint %}
+    <a href="{{ entry.preprint }}" target="_blank" ><input class="button2" type="button" value="preprint" style= "background-color: #A9E2AD;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;" /></a>
+{% endif %}
+
+ 
+{% if entry.code %}
+    <a href="{{ entry.code }}" target="_blank" ><input class="button3" type="button" value="code" style= "background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;" /></a>
+{% endif %}
+<div id="a{{entry.key}}" style="display: none;">
+<pre>{{entry.bibtex}}</pre>
+</div>
+<script>
+function toggleBibtex{{entry.key}}(parameter) {
+    var x= document.getElementById('a{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>

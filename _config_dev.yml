@@ -13,7 +13,7 @@ sass:
 include: ['_pages']
 kramdown:
   input: markdown
-  plugins: ['jekyll-scholar']
+#plugins: ['jekyll-scholar']
 #jekyll scholar
 scholar:
   style: apa
@@ -25,10 +25,9 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{reference}}"
+  bibliography_template: {{ reference }} [<a href="{{link}}">PDF</a>]
   bibtex_filters:
     - latex
-    - markdown
 
   replace_strings: true
   join_strings:    true

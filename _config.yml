@@ -13,10 +13,11 @@ sass:
 include: ['_pages']
 kramdown:
   input: markdown
-plugins: ['jekyll-scholar']
+#plugins: ['jekyll-scholar']
+
 #jekyll scholar
 scholar:
-  style: apa
+  style: assets/bibliography/apa.csl
   locale: en
 
   sort_by: year
@@ -25,13 +26,13 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{reference}}"
+  bibliography_template: bibtemplate
   bibtex_filters:
     - latex
-    - markdown
+
 
   replace_strings: true
-  join_strings:    true
+  #join_strings:    true
 
   details_dir:    bibliography
   details_layout: bibtex.html
