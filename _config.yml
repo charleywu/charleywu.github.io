@@ -3,7 +3,7 @@ title: Charley M. Wu
 email: charleymswu@gmail.com
 description: >
   Hi I'm Charley
-baseurl: "/homepage"
+baseurl: ""
 url: "http://charleywu.github.io"
 twitter_username: thecharleywu
 github_username:  charleywu
@@ -13,7 +13,7 @@ sass:
 include: ['_pages']
 kramdown:
   input: markdown
-plugins: ['jekyll/scholar']
+plugins: ['jekyll-scholar']
 #jekyll scholar
 scholar:
   style: apa

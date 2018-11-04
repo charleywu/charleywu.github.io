@@ -4,6 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
+Feel free to write me an email
 
-My e-mail is [email@something.com](mailto:email@something.com).
+My e-mail is [charleymswu[at]gmail[dot]com[de]](mailto:charleymswu@gmail.com)  .
