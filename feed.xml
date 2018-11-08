@@ -6,15 +6,23 @@
 </description>
     <link>https://charleywu.github.io/</link>
     <atom:link href="https://charleywu.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Nov 2018 17:50:10 -0500</pubDate>
-    <lastBuildDate>Wed, 07 Nov 2018 17:50:10 -0500</lastBuildDate>
+    <pubDate>Thu, 08 Nov 2018 14:46:26 -0500</pubDate>
+    <lastBuildDate>Thu, 08 Nov 2018 14:46:26 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>New Website!</title>
-        <description>&lt;p&gt;I'm trying out Jekyll for making a webpage using github pages. Thanks to Tania Rascia for a really [great tutorial on making static websites with Jekyll][https://www.taniarascia.com/make-a-static-website-with-jekyll/]&lt;/p&gt;
+        <description>&lt;p&gt;I'm trying out Jekyll for making a webpage using github pages. Thanks to Tania Rascia for a really &lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;great tutorial on making static websites with Jekyll&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Some helpful links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;jekyll-github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;jekyll-help&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;Tania Rascia tutorial&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 17 Aug 2018 20:10:45 -0400</pubDate>
