@@ -32,3 +32,5 @@ gem "jekyll-scholar"
 
 gem "unicode"
 
+
+gem 'jekyll-font-awesome-sass'

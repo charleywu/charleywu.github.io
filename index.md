@@ -6,7 +6,9 @@ subtitle: PhD Student at the Center for Adaptive Rationality / Max Planck Instit
 
 <img src="/assets/profile.jpg"  style="height: 200px; margin-left: auto; margin-right: 25px; float: left; ">
 
-I'm a PhD student at the [Center for Adaptive Rationality](https://www.mpib-berlin.mpg.de/en/research/adaptive-rationality) at the Max Planck Institute for Human Development in Berlin. I am funded by the [International Max Planck Research School (IMPRS) on Adapting Behavior in a Fundamentally Uncertain World](https://www.imprs.econ.mpg.de/imprs/student/info/). My main research is on the problem of people learn under uncertainty. Ral-world environments are shaped by uncertainty, making optimal solutions impossible and leading to very different dynamics than those studied under the lens of risk (i.e., when the probabilities of all outcomes are known).  My work has so far focused on three main branches of learning, studying efficient exploration guided by generalization, learning through asking questions, and social learning in the context of different information sharing dynamics.
+I'm a PhD student at the [Center for Adaptive Rationality](https://www.mpib-berlin.mpg.de/en/research/adaptive-rationality) at the Max Planck Institute for Human Development in Berlin. I am funded by the [International Max Planck Research School (IMPRS) on Adapting Behavior in a Fundamentally Uncertain World](https://www.imprs.econ.mpg.de/imprs/student/info/). My main research is on the problem of people learn under uncertainty. Real-world environments are shaped by uncertainty, making optimal solutions impossible and leading to very different dynamics than those studied under the lens of risk (i.e., when the probabilities of all outcomes are known).  My work has so far focused on three main branches of learning: efficient exploration guided by generalization, learning by asking useful questions, and social learning in the context of different information sharing dynamics. 
+
+<a href="assets/CharleyWuCV.pdf" download>You can download my CV here.</a>
 
 
 ### Research Interests

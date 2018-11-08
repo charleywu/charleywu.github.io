@@ -7,6 +7,9 @@ baseurl: ""
 url: "http://localhost:4000"
 twitter_username: thecharleywu 
 github_username:  charleywu
+social:
+- {icon: 'researchgate', link: 'https://www.researchgate.net/profile/Charley_Wu2'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=1O2hcVgAAAAJ'}
 # Build Settings
 sass:
   sass_dir: _sass
@@ -25,7 +28,7 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: {{ reference }} [<a href="{{link}}">PDF</a>]
+  bibliography_template: bibtemplate
   bibtex_filters:
     - latex
 
@@ -37,3 +40,8 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+ms:
+  - jekyll-font-awesome-sass
+font-awesome:
+  assets: true
