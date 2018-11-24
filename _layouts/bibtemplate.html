@@ -92,6 +92,21 @@
     border-radius: 5px;"/></a>
 {% endif %}
 
+{% if entry.SI %}
+ <a href="{{ entry.SI }}" target="_blank" ><input class="button1" type="button" value="SI" style= "background-color: #4D4257;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;"/></a>
+{% endif %}
+
 <div id="a{{entry.key}}" style="display: none;">
 <pre>{{entry.bibtex}}</pre>
 </div>
