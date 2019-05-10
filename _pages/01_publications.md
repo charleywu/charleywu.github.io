@@ -11,6 +11,10 @@ permalink: /publications/
 {% bibliography --query @*[keywords=prep] %}
 
 
+### 2019
+
+{% bibliography --query @*[year=2019] %}
+
 ### 2018
 
 {% bibliography --query @*[year=2018] %}
