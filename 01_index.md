@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi, I'm Charley
+title: About
 subtitle: PhD Student at the Center for Adaptive Rationality / Max Planck Institute for Human Development, Berlin 
 ---
 
@@ -21,12 +21,10 @@ My current research interests include:
 - *Collective Learning*: Learning doesn't only occur in the void, but involves interacting with others and an exchange of information. How do different network structures influence collective search performance? And when does it make sense to share information with others, even in competitive resource environments?
 
 
-
-
 ### Background
 Before starting my PhD in 2016, I completed an M.Sc. in Cognitive Science at the University of Vienna, where I was affiliated with the Austrian Institute for Articial Intelligence ([OFAI](http://www.ofai.at/)). Prior to that, I was trained in Philosphy at the University of British Columbia. Currently, I identify as a Cognitive Scientist, but dabble in Computational Neuroscience, Machine Learning, and Computational Biology. 
 
-In Fall 2018, I will be a visiting researcher at the [Computational Cognitive Neuroscience Lab](http://gershmanlab.webfactional.com/) headed by Sam Gershman at Harvard University. 
+In Fall 2019, I will be a starting a postdoc at Harvard University working with [Sam Gershman](http://gershmanlab.webfactional.com/) and [Fiery Cushman](http://cushmanlab.fas.harvard.edu/) 
 
 
 ### Contact
